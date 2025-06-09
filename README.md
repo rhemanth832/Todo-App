@@ -68,10 +68,11 @@ python -m venv venv
 # on Windows:
 venv\Scripts\activate
 ```
-'''bash
+
+```bash
 #on mac:
 source venv/bin/activate
-'''
+```
 
 3. **Apply migrations**
 ```bash
