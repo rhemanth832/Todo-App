@@ -58,36 +58,36 @@ todo_app/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/django-todo-app.git
-cd django-todo-app
+git clone https://github.com/rhemanth832/Todo-App.git
+cd demo
 ```
 
 2. **Create and activate a virtual environment**
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+# on Windows:
+venv\Scripts\activate
 ```
+'''bash
+#on mac:
+source venv/bin/activate
+'''
 
-3. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-4. **Apply migrations**
+3. **Apply migrations**
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-5. **Create a superuser (optional for admin panel)**
+4. **Create a superuser (optional for admin panel)**
 ```bash
 python manage.py createsuperuser
 ```
 
-6. **Run the development server**
+5. **Run the development server**
 ```bash
 python manage.py runserver
 ```
 
-7. **Open in browser**
+6. **Open in browser**
 Visit: `http://127.0.0.1:8000/
