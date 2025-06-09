@@ -1,4 +1,3 @@
-description = """
 📝 To-Do App – Built with Django
 
 This is a simple yet fully functional To-Do List Web Application developed using the Django web framework. The app allows users to manage daily tasks efficiently by adding, editing, marking as complete, and deleting tasks. It demonstrates key backend and frontend integration using Django’s powerful built-in features.
@@ -61,22 +60,3 @@ todo_app/
 
 7. Open in browser
    Visit: http://127.0.0.1:8000/
-
-📌 Use Cases
-- Personal task management
-- Learning Django basics (models, views, templates, forms)
-- Starter project for beginner Django developers
-
-🤝 Contributing
-Feel free to fork the repository and submit a pull request with improvements or new features. Bug reports and feature suggestions are also welcome!
-
-📃 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-"""
-
-# Save to file
-file_path = "/mnt/data/todo_django_repo_description.txt"
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(description)
-
-file_path
