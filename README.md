@@ -91,4 +91,4 @@ python manage.py runserver
 ```
 
 6. **Open in browser**
-Visit: `http://127.0.0.1:8000/
+Visit: http://127.0.0.1:8000/
